@@ -248,6 +248,6 @@ public class Main {
         c2.exibirSaldo();
 
         c2.setNumConta(40);
-        System.out.println("Conta de %s agora tem o número %d.".formatted(c2.titular, c2.getNumConta()));
+        System.out.println("Conta de %s agora tem o número %d.".formatted(c2.getTitular(), c2.getNumConta()));
     }
 }
